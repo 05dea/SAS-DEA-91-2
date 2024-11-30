@@ -1,0 +1,516 @@
+body {
+    background: rgb(255,241,80);
+background: radial-gradient(circle, rgba(255,241,80,1) 0%, rgba(255,115,0,1) 100%);
+}
+
+/* header */
+.header {
+    width: 1280px;
+    position: relative;
+    margin: 0px auto;
+}
+
+/* Style for the kolaborasi */
+.kolaborasi {
+    margin: 0px auto; /* Add space above and center the section */
+    width: 1280px; /* Match the width of the navbar */
+    padding: 0px;
+    position: relative;
+}
+
+/* Navigation Bar */
+ul {
+    list-style: none;
+    background: #ffe96e;
+    border: 2px solid brown;
+    margin: 0x auto; 
+    position: relative; /* Ensure it follows document flow */
+    width: 1280px;
+    height: 60px;
+    text-align: left; /* Center align text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: brown;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color changes */
+}
+
+ul a:hover{
+    background-color: lightyellow;
+}
+
+/* kode css dropdown */
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    background: #ffe96e;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* Pendahuluan */
+
+.pendahuluan{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 150px 150px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.palestina{
+    width: 30%;
+    border-radius: 5px;
+    border: 3px solid white;
+    float: right;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    margin-left: 15px;
+}
+
+.palestina:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama h2{
+    background-color: rgb(255, 247, 153);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 200px 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.kerjasama p{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 200px 150px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.image{
+    float: left;
+    margin-left: 120px;
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */
+}
+
+.image:hover{
+    transform:scale(1.1)
+}
+
+.image02{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 41%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */
+}
+
+.image02:hover{
+    transform:scale(1.1)
+}
+
+.goal3{
+    width: 12%;
+    border-radius: 5px;
+    border: 3px solid white;
+    float: left;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.goal3:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama02{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 150px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.kerjasama03{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 150px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.konferensi{
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.konferensi:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama04{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 200px 200px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tambahan{
+    background-color: rgb(255, 247, 153);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.komitmen{
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.komitmen:hover{
+    transform:scale(1.1)
+}
+
+.merc{
+    width: 30%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.merc:hover{
+    transform:scale(1.1)
+}
+
+.act{
+    width: 30%;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.act:hover{
+    transform:scale(1.1)
+}
+
+.images{
+    margin: 0px 150px 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.kerjasama05{
+    background-color: rgb(255, 247, 153);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.kerjasama06{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 200px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kerjasama07{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 150px 200px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.asean{
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.asean:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama08{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 200px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ktt{
+    float: left;
+    margin-left: 120px;
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */
+}
+
+.ktt:hover{
+    transform:scale(1.1)
+}
+
+.kttasean{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; /* smoother transition */
+}
+
+.kttasean:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama09{
+    background-color: rgb(255, 247, 153);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.kerjasama10{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 100px 200px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.unitednations{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 20%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; 
+    margin-left: 400px;
+}
+
+.unitednations:hover{
+    transform:scale(1.1)
+}
+
+.un{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 20%;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out; 
+    margin-left: 400px;
+}
+
+.un:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama11{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 200px 200px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kerjasama12{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 150px 150px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.img-isu{
+    margin-right: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 3px solid white;
+    float: left;
+    transition: transform 0.3s ease-in-out; /* smoother transition */  
+    margin-left: 15px;
+}
+
+.img-isu:hover{
+    transform:scale(1.1)
+}
+
+.kerjasama13{
+    background: rgb(255,240,62);
+background: linear-gradient(90deg, rgba(255,240,62,1) 0%, rgba(255,247,153,1) 35%, rgba(255,200,0,1) 100%);
+    border: 5px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin: 0px 150px 150px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* footer */
+.footer img{
+    width: 1280px;
+    position: relative;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0; 
+    margin: 0 auto; 
+    text-align: center; 
+}
